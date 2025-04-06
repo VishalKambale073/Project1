@@ -1,0 +1,33 @@
+.home-page{
+    height: 600px;
+    background-image: url("./hero.jpg");
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul>li{
+    margin: 10px;
+    font-size: 20px;
+}
+.hero-div{ 
+    margin-top: 160px;
+    margin-left: 80px;
+}
+.heading{
+    color: rgb(17, 170, 170);
+}
+.heading > span{
+    color: rgb(241, 181, 0);
+}
+.button-div > button{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(241, 181, 0);
+}

@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Heading Styles */
+.blue-text {
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.red-text {
+    color: red;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Card Container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card Styles */
+.card {
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
